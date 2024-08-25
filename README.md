@@ -1,7 +1,7 @@
 
 # Atsuko Clone - Django REST API
 
-![](https://github.com/Benji918/DRF-Atsuko-Clone/blob/main/DRF_atsuko_clone.png)
+![](https://github.com/sachnaror/DRF-Atsuko-Clone/blob/main/DRF_atsuko_clone.png)
 
 
 ## Introduction
@@ -42,10 +42,10 @@ Before you begin, ensure that you have the following prerequisites installed on 
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Installation Steps
-1. **Clone the Repository**: 
+1. **Clone the Repository**:
    Clone the Atsuko Replica repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/DRF_atsuko_clone.git
+   git clone https://github.com/sachnaror/DRF_atsuko_clone.git
    ```
 
 2. **Navigate to the Project Directory**:
