@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-from datetime import timedelta
 import os
+from datetime import timedelta
 from pathlib import Path
+
 from decouple import config
 from dotenv import load_dotenv
 
@@ -211,3 +212,13 @@ CELERY_RESULT_BACKEND = 'django-db'
 
 # Celery beat settings
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+
+
+
+
+
+
+
+
+
+#DRF-Atsuko-Clone
