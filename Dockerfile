@@ -4,7 +4,7 @@ FROM python:alpine3.19
 ENV PYTHONUNBUFFERED 1
 
 # Label
-LABEL maintainer="benjamin"
+LABEL maintainer="sachin"
 
 # WORKING DIRECTORY
 WORKDIR /app
