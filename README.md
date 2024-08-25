@@ -3,6 +3,7 @@
 
 ![](https://github.com/sachnaror/DRF-Atsuko-Clone/blob/main/DRF_atsuko_clone.png)
 
+![](https://github.com/sachnaror/DRF-Atsuko-Clone/blob/main/image.png)
 
 ## Introduction
 Welcome to the Atsuko Replica project! This Django REST API application aims to replicate the backend functionality of [Atsuko](https://atsuko.com/), an online platform specializing in anime-inspired apparel and accessories. By building this replica, we seek to explore and implement key features and functionalities found on the Atsuko platform.
