@@ -12,7 +12,7 @@ Welcome to the Ecommerce DRF API project! This Django REST API application aims 
 ThIS Ecommerce Replica ncompasses the development of a robust and scalable RESTful API using Django, a high-level Python web framework. Our goal is to mimic the core backend functionalities of the Atsuko platform, including user authentication, product management, shopping cart functionality, order processing, and more.
 
 ```
-├── DRF-Atsuko-Clone/
+├──E-commerce - Django REST API/
 │   ├── requirements.txt
 │   ├── DRF_atsuko_clone.png
 │   ├── Dockerfile
