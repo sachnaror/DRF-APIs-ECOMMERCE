@@ -1,17 +1,93 @@
 
-# Atsuko Clone - Django REST API
+# E-commerce - Django REST API
 
 ![](https://github.com/sachnaror/DRF-Atsuko-Clone/blob/main/DRF_atsuko_clone.png)
 
 ![](https://github.com/sachnaror/DRF-Atsuko-Clone/blob/main/image.png)
 
 ## Introduction
-Welcome to the Atsuko Replica project! This Django REST API application aims to replicate the backend functionality of [Atsuko](https://atsuko.com/), an online platform specializing in anime-inspired apparel and accessories. By building this replica, we seek to explore and implement key features and functionalities found on the Atsuko platform.
+Welcome to the Ecommerce DRF API project! This Django REST API application aims to replicate the backend functionality of [Atsuko](https://atsuko.com/), an online platform specializing in anime-inspired apparel and accessories. By building this replica, we seek to explore and implement key features and functionalities i found on the Atsuko platform.
 
 ## Project Overview
-The Atsuko Replica project encompasses the development of a robust and scalable RESTful API using Django, a high-level Python web framework. Our goal is to mimic the core backend functionalities of the Atsuko platform, including user authentication, product management, shopping cart functionality, order processing, and more.
+ThIS Ecommerce Replica ncompasses the development of a robust and scalable RESTful API using Django, a high-level Python web framework. Our goal is to mimic the core backend functionalities of the Atsuko platform, including user authentication, product management, shopping cart functionality, order processing, and more.
+
+```
+├── DRF-Atsuko-Clone/
+│   ├── requirements.txt
+│   ├── DRF_atsuko_clone.png
+│   ├── Dockerfile
+│   ├── db.sqlite3
+│   ├── README.md
+│   ├── docker-compose.yml
+│   ├── manage.py
+│   ├── image.png
+│   ├── products/
+│   │   ├── serializers.py
+│   │   ├── apps.py
+│   │   ├── permissions.py
+│   │   ├── urls.py
+│   │   ├── filters.py
+│   │   └── views.py
+│   │   ├── tests/
+│   ├── core/
+│   │   ├── models.py
+│   │   ├── selectors.py
+│   │   ├── apps.py
+│   │   ├── admin.py
+│   │   ├── exceptions.py
+│   │   ├── manager.py
+│   │   └── filters.py
+│   │   ├── tests/
+│   │   │   └── test_models.py
+│   ├── users/
+│   │   ├── signals.py
+│   │   ├── tasks.py
+│   │   ├── serializers.py
+│   │   ├── apps.py
+│   │   └── views.py
+│   │   ├── tests/
+│   ├── atsuko_clone/
+│   │   ├── asgi.py
+│   │   ├── celery.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── google_login/
+│   │   ├── service.py
+│   │   ├── apps.py
+│   │   ├── apis.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── profiles/
+│   │   ├── serializers.py
+│   │   ├── apps.py
+│   │   ├── permissions.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   │   ├── tests/
+│   ├── notifications/
+│   │   ├── signals.py
+│   │   ├── tasks.py
+│   │   ├── serializers.py
+│   │   ├── apps.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   ├── .idea/
+│   │   ├── vcs.xml
+│   │   ├── modules.xml
+│   │   └── misc.xml
+│   │   ├── inspectionProfiles/
+│   │   │   └── profiles_settings.xml
+│   ├── media/
+│   │   ├── uploads/
+│   │   │   ├── profile/
+│   │   │   │   └── e680efe2-e6f7-4c3c-89fc-d6e63659c380.png
+
+```
 
 ## Key Features
+
 - **User Authentication**: Implement user registration, login, and authentication using JWT tokens.
 - **Product Management**: Enable CRUD operations for managing products, including creation, retrieval, updating, and deletion.
 - **Shopping Cart Functionality**: Allow users to add products to their shopping carts, modify quantities, and proceed to checkout.
